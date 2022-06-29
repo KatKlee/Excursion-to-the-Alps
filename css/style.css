@@ -78,14 +78,20 @@ article p {
 }
 
 .row {
-    margin-top: 20px;
+    display: flex;
 }
 
+.column {
+    flex:33.33%;
+    padding: 5px;
+}
+
+/* 
 div img {
     display: inline-block;
     width: 30%;
     margin: 20px auto;
-}
+} */
 
 
 /* list */
@@ -133,6 +139,16 @@ li:nth-of-type(6)::after {
     content: " – AVAILABLE";
 }
 
+/* footer */
 footer {
     border-top: black;
 }
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+  }

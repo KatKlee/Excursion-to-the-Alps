@@ -142,6 +142,9 @@ li:nth-of-type(6)::after {
 
 /* footer */
 footer {
+    width: 1200px;
+    margin: auto;
+    text-align: center;
     border-top: black;
 }
 

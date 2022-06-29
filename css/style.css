@@ -22,7 +22,7 @@ h1 {
     font-family: 'Cinzel', serif;
     font-weight: 500;
     font-size: 15px;
-    color: grey;
+    color: #999;
     text-transform: uppercase;
     margin: 20px auto;
 }
@@ -52,11 +52,12 @@ h2 {
     line-height: 1.2;
 }
 
+/* headline content */
 h3 {
     font-family: 'Cinzel', serif;
     font-size: 20px;
     font-weight: 400;
-    color: black;
+    color: #333;
     text-transform: uppercase;
     text-align: center;
     margin-top: 150px;
@@ -68,37 +69,30 @@ article p {
     color: black;
     width: 1200px;
     text-align: center;
-    margin: 20px auto;
+    margin: 60px auto 100px auto;
 }
 
 /* image gallery */
 
 .imageGallery {
-    width: 1200px;
-    margin: auto;
+    max-width: 1200px;
+    justify-content: center;
 }
 
 .row {
     display: flex;
+    
 }
 
 .column {
-    flex:33.33%;
-    padding: 5px;
+    flex: 33.33%;
+    padding: 30px;
 }
-
-/* 
-div img {
-    display: inline-block;
-    width: 30%;
-    margin: 20px auto;
-} */
-
 
 /* list */
 ol {
     width: 1200px;
-    margin: 20px auto;
+    margin: 60px auto 100px auto;
 }
 
 li {
@@ -106,7 +100,7 @@ li {
     font-weight: 300;
     color: black;
     list-style: none;
-    margin: auto;
+    margin: 5px auto 5px auto;
 }
 
 /* status of booking capacity */
@@ -140,25 +134,39 @@ li:nth-of-type(6)::after {
     content: " – AVAILABLE";
 }
 
-/* footer */
+/* footer general */
 footer {
     width: 1200px;
     margin: auto;
     text-align: center;
-    border-top: black;
+    border-top: 1px solid #ccc;
+    margin-bottom: 20px;
 }
 
+/* headline footer */
+h4 {
+    font-family: 'Cinzel', serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: #333;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 50px auto 20px auto;
+}
+
+/* social icons */
 .fa {
     background: #333;
     color: white;
-    padding: 20px;
+    padding: 15px;
     font-size: 80px;
-    width: 60px;
+    width: 50px;
     text-align: center;
     text-decoration: none;
     border-radius: 50%;
-  }
+}
 
+/* hover social icons */
   .fa:hover {
     opacity: 0.7;
-  }
+}

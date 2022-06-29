@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700;800;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* 
+font-family: 'Cinzel', serif;
+font-family: 'Poppins', sans-serif;
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 1440px;
+}
+
+
+/* logo */
+h1 {
+    font-family: 'Cinzel', serif;
+    font-weight: 500;
+    font-size: 15px;
+    color: grey;
+    text-transform: uppercase;
+    margin: 20px;
+}
+
+/* hero image */
+.heroImage {
+    background-image: url("https://images.unsplash.com/photo-1486312699619-be057cfc0342?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1502&q=80");
+    background-position: center;
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* hero text */
+h2 {
+    font-family: 'Cinzel', serif;
+    font-size: 40px;
+    font-weight: 400;
+    color: white;
+    text-transform: uppercase;
+    overflow-wrap: normal;
+    position: relative;
+    text-align: center;
+    margin: ;
+}

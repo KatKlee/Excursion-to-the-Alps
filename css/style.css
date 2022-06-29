@@ -13,24 +13,24 @@ font-family: 'Poppins', sans-serif;
 
 body {
     width: 1440px;
+    margin: auto;
+    color: #333;
 }
-
 
 /* logo */
 h1 {
     font-family: 'Cinzel', serif;
     font-weight: 500;
     font-size: 15px;
-    color: grey;
     text-transform: uppercase;
-    margin: 20px;
+    margin: 20px auto;
 }
 
 /* hero image */
 .heroImage {
     background-image: url("https://images.unsplash.com/photo-1486312699619-be057cfc0342?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1502&q=80");
-    background-position: center;
-    height: 600px;
+    background-position: bottom;
+    height: 500px;
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -38,12 +38,101 @@ h1 {
 /* hero text */
 h2 {
     font-family: 'Cinzel', serif;
-    font-size: 40px;
+    font-size: 50px;
     font-weight: 400;
     color: white;
     text-transform: uppercase;
     overflow-wrap: normal;
     position: relative;
     text-align: center;
-    margin: ;
+    padding-top: 240px;
+    margin: auto;
+    width: 500px;
+    line-height: 1.2;
+}
+
+h3 {
+    font-family: 'Cinzel', serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: black;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 150px;
+}
+
+article p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    color: black;
+    width: 1200px;
+    text-align: center;
+    margin: 20px auto;
+}
+
+/* image gallery */
+
+.imageGallery {
+    width: 1200px;
+    margin: auto;
+}
+
+.row {
+    margin-top: 20px;
+}
+
+div img {
+    display: inline-block;
+    width: 30%;
+    margin: 20px auto;
+}
+
+
+/* list */
+ol {
+    width: 1200px;
+    margin: 20px auto;
+}
+
+li {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    color: black;
+    list-style: none;
+    margin: auto;
+}
+
+/* status of booking capacity */
+li:nth-of-type(1)::after {
+    color: red;
+    content: " – SOLD OUT";
+}
+
+li:nth-of-type(2)::after {
+    color: red;
+    content: " – SOLD OUT";
+}
+
+li:nth-of-type(3)::after {
+    color: red;
+    content: " – SOLD OUT";
+}
+
+li:nth-of-type(4)::after {
+    color: orange;
+    content: " – ONLY 4 SPOTS AVAILABLE";
+}
+
+li:nth-of-type(5)::after {
+    color: green;
+    content: " – AVAILABLE";
+}
+
+li:nth-of-type(6)::after {
+    color: green;
+    content: " – AVAILABLE";
+}
+
+footer {
+    border-top: black;
 }

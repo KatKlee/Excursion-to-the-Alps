@@ -72,22 +72,31 @@ article p {
     margin: 60px auto 100px auto;
 }
 
-/* image gallery */
 
+/* image gallery */
 .imageGallery {
-    max-width: 1200px;
-    justify-content: center;
+    
+    max-width: 1440px;
+    display: flex;
+    flex-direction: column;
 }
 
 .row {
     display: flex;
+    justify-content: center;
     
 }
 
 .column {
-    flex: 33.33%;
-    padding: 30px;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
 }
+
+img {
+    width: 80%;
+}
+
 
 /* list */
 ol {

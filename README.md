@@ -1,6 +1,6 @@
 # Excursion-to-the-Alps
 
-Übung Tag 08
++Übung Tag 08+
 
 Wir sehen eine Unterseite für das Reiseangebot "Excursion to the alps" auf der Website eines Reiseveranstalters.
 
